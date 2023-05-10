@@ -24,6 +24,7 @@ add_executable(
 )
 target_link_libraries(
   factorialTest
+  factorial
   GTest::gtest_main
 )
 
