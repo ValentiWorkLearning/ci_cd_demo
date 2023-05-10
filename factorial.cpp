@@ -1,5 +1,12 @@
 #include "factorial.h"
-
+#include <iostream>
+namespace
+{
+  void printer()
+  {
+    std::cout<<"Hello world" << 42<< std::endl;
+  }
+}
 namespace math
 {
  int factorial(int n)
