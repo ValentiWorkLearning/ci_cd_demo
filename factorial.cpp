@@ -1,5 +1,6 @@
 #include "factorial.h"
 #include <iostream>
+
 namespace
 {
   void printer()
